@@ -1,5 +1,5 @@
 # Work Git bash
-> Commands
+> Creating new rep
 >> 1. cd D:/
 >> 2. git init "Start"
 >> 3. cd D:/Start
