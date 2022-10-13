@@ -1,12 +1,11 @@
 # Work Git bash
-## Creating new rep
-> Commands:
->> 1. cd D:/
->> 2. git init "Start"
->> 3. cd D:/Start
->> 4. touch readme.md
->> 5. git add readme.md
->> 6. git commit -m "Start"
->> 7. git brach -M main
->> 8. git remote add origin http://github.com/RageHaker/test.git
->> 9. Its all
+## Добавление файлов с локального ПК в репозиторий GitHub
+> * Нужно сделать {
+>> 1. Выбрать папку с проектом, для этого либо ПКМ в самой папке и выбираем **"Git Bash Here"**, либо в командной строке идём через комманду cd (диск:/...)
+>> 2. ```git init``` # создаём новый проект в текущей директории
+>> 3. ```git remote add origin http://...``` # для связи к репозиторию GitHub
+>> 4. Так как мы создали новый проект в текущей директории файл/лы не будут добавлятся в репозиторий, их сначала надо добавить через комманду ```git add .``` (точка означает добавление всех файлов в текущей директории)
+>> 5. ```git commit -m "Commit"```
+>> 6. ```git push --set-upstream origin master``` данная комманда загружает все на удаленный репозиторий. Приписка —set-upstream origin master – связывает локальную ветку master с одноименной удаленной
+>> 7. Так же можно использовать ```git push```
+> * } **На этом всё**
